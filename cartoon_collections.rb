@@ -19,10 +19,9 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.map do |array| 
     if array.count > 4 
-      array.any?
+      array
   end
  end
- array 
 end
 
 def find_valid_calls(planeteer_calls)
