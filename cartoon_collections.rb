@@ -22,6 +22,7 @@ def long_planeteer_calls(planeteer_calls)
       array.any?
   end
  end
+ array 
 end
 
 def find_valid_calls(planeteer_calls)
